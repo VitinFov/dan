@@ -1,0 +1,13 @@
+<div class="teclado">
+    <div class="linha" *ngFor="let linha of teclas">
+      <button 
+        *ngFor="let tecla of linha" 
+        (click)="pressionarTecla(tecla)">
+        {{ tecla }}
+      </button>
+    </div>
+  </div>
+  <div class="output">
+    <p>Texto digitado: {{ texto }}</p>
+  </div>
+  

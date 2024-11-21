@@ -1,0 +1,30 @@
+.teclado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .linha {
+    display: flex;
+    gap: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c0c0c0;
+  }
+  
+  .output {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+      
